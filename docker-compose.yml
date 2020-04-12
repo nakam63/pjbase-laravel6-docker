@@ -12,7 +12,9 @@ services:
       - php-fpm
 
   php-fpm:
-    build: ./laravel
+    build:
+      context: ./laravel
+      target: dev
     volumes: 
       - ./laravel:/var/www/laravel
     depends_on: 
