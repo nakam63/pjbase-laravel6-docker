@@ -55,8 +55,8 @@ Laravel+Dockerのプロジェクトベース
 * Update php library.  
     ``` sh ./laravel/scripts/00_composer_update_install.sh ```
     
-* Update autoload.php.
+* Update autoload.php.  
     ``` sh ./laravel/scripts/01_composer_dump-autoload.sh ```
     
-* Update about database.
+* Update about database.  
     ``` sh ./laravel/scripts/03_artisan_migrate_seed.sh ```
