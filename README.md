@@ -22,10 +22,10 @@ Laravel+Dockerのプロジェクトベース
 ## Environment setup
 
 1. Clone code in your local.  
-    ``` git clone <repository url> ```
+    ``` git clone https://github.com/nakam63/pjbase-laravel-docker.git ```
     
 2. Run Docker Containers.  
-    ``` cd <your project directory> ```  
+    ``` cd <this project directory> ```  
     ``` docker-compose up -d ```
     
 3. Install php libraries.  
@@ -58,5 +58,5 @@ Laravel+Dockerのプロジェクトベース
 * Update autoload.php.  
     ``` sh ./laravel/scripts/01_composer_dump-autoload.sh ```
     
-* Update about database.  
+* Update database.  
     ``` sh ./laravel/scripts/03_artisan_migrate_seed.sh ```
