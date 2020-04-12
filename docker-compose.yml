@@ -28,6 +28,7 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_DATABASE: db
     volumes:
+      - ./mysql/custom.cnf:/etc/mysql/conf.d/custom.cnf
       - db-data:/var/lib/mysql
 
 volumes:
