@@ -13,7 +13,7 @@ Laravel+Dockerのプロジェクトベース
 * **PHP**  
   7.3.15
 * **Laravel**  
-  Latest
+  6.xx
 * **MySQL**  
   Latest
 
