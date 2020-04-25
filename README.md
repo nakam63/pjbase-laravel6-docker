@@ -13,7 +13,7 @@ Laravel+Dockerのプロジェクトベース
 * **PHP**  
   7.3.15
 * **Laravel**  
-  6.xx
+  6.x
 * **MySQL**  
   Latest
 
@@ -29,13 +29,13 @@ Laravel+Dockerのプロジェクトベース
     ``` docker-compose up -d ```
     
 3. Install php libraries.  
-    ``` sh ./laravel/scripts/00_composer_update_install.sh ```
+    ``` sh ./scripts/composer_update_install.sh ```
     
 4. Create .env file.  
-    ``` sh ./laravel/scripts/02_create_env.sh ```
+    ``` sh ./scripts/create_env.sh ```
     
 5. Create tables.  
-    ``` sh ./laravel/scripts/03_artisan_migrate_seed.sh ```
+    ``` sh ./scripts/artisan_migrate_seed.sh ```
     
 6. Connect `http://localhost`.
 
@@ -44,19 +44,19 @@ Laravel+Dockerのプロジェクトベース
 ## Tools
 
 * Connect to nginx container.  
-    ``` sh ./scripts/00_connect_nginx.sh ```
+    ``` sh ./scripts/connect_nginx.sh ```
 
 * Connect to php-fpm container.  
-    ``` sh ./scripts/01_connect_php-fpm.sh ```
+    ``` sh ./scripts/connect_php-fpm.sh ```
     
 * Connect to database.  
-    ``` sh ./scripts/02_connect_db.sh ```
+    ``` sh ./scripts/connect_db.sh ```
 
 * Update php library.  
-    ``` sh ./laravel/scripts/00_composer_update_install.sh ```
+    ``` sh ./scripts/composer_update_install.sh ```
     
 * Update autoload.php.  
-    ``` sh ./laravel/scripts/01_composer_dump-autoload.sh ```
+    ``` sh ./scripts/composer_dump-autoload.sh ```
     
 * Update database.  
-    ``` sh ./laravel/scripts/03_artisan_migrate_seed.sh ```
+    ``` sh ./scripts/artisan_migrate_seed.sh ```
