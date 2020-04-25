@@ -22,7 +22,7 @@ Laravel+Dockerのプロジェクトベース
 ## Environment setup
 
 1. Clone code in your local.  
-    ``` git clone https://github.com/nakam63/pjbase-laravel-docker.git ```
+    ``` git clone https://github.com/nakam63/pjbase-laravel6-docker.git ```
     
 2. Run Docker Containers.  
     ``` cd <this project directory> ```  
