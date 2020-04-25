@@ -1,5 +1,5 @@
-# pjbase-laravel-docker
-Laravel+Dockerのプロジェクトベース
+# pjbase-laravel6-docker
+Laravel6 + Dockerのプロジェクトベース
 
 <br>
 
