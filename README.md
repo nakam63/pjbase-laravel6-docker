@@ -1,8 +1,3 @@
-# pjbase-laravel6-docker
-Laravel6 + Dockerのプロジェクトベース
-
-<br>
-
 ## Tech
 
 * **Docker**  
@@ -20,24 +15,21 @@ Laravel6 + Dockerのプロジェクトベース
 <br>
 
 ## Environment setup
-
-1. Clone code in your local.  
-    ``` git clone https://github.com/nakam63/pjbase-laravel6-docker.git ```
     
-2. Run Docker Containers.  
+1. Run Docker Containers.  
     ``` cd <this project directory> ```  
     ``` docker-compose up -d ```
     
-3. Install php libraries.  
+2. Install php libraries.  
     ``` sh ./scripts/composer_update_install.sh ```
     
-4. Create .env file.  
+3. Create .env file.  
     ``` sh ./scripts/create_env.sh ```
     
-5. Create tables.  
+4. Create tables.  
     ``` sh ./scripts/artisan_migrate_seed.sh ```
     
-6. Connect `http://localhost`.
+5. Connect `http://localhost`.
 
 <br>
 
